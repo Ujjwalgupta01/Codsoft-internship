@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ujjwal Gupta Portfolio</title>
+  <!-- external css file link -->
+
+ <link rel="stylesheet" href="styles.css">
+ <!-- google font link -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
+  
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+          <h1> Portfolio</h1>
+          <p>Know more about me!</p>
+        </div>
+      <nav>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#skill">SKILLS</a></li>
+          <li><a href="#project">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+  <!-- home section -->
+
+  <section class="home">
+    
+    <div class="hometext">
+      <h1>Ujjwal Gupta</h1>
+      <p> I am a Web Developer and
+      I worked as a intern in codsoft in web development domain.</p>
+      <a href="#contact" class="btn"> Hire Me</a>
+    </div>
+   
+    <div class="homeimage">
+      <img src="ujjwal.jpg" alt="ujjwal photo">
+    </div>
+  </section>
+
+  <!-- about section -->
+
+  <section class="about" id="about" style="background-color: aqua;">
+     
+    <h2 class="abouttitle">About Me</h2>
+    
+    <div class="about-content">
+        <div class="text-block">
+          <p>Hi, I am <span class="me">Ujjwal Gupta </span> a fourth year B.tech (I.T.) student of Hemvati Nandan Bahuguna Garhwal University(A central University) srinagar,Uttarkhand.
+            I am interested in web development and D.S.A. in java.
+            I have been working on enhancing my skills and learning new technologies.
+          </p>
+          <a href="resume.pdf" class="btn">Download Resume</a>
+        </div>
+        <div class="image-block">
+          <img src="ujjwal Gupta.jpg" alt="Profile photo">
+        </div>
+    </div>
+    
+  </section>
+  
+
+  <!-- skill section -->
+
+  <section class="skill" id="skill" style="background-color: aquamarine;">
+    
+    <h2 class="skilltitle">My Skills</h2>
+    
+    <div class="skilllist">
+      <div class="innerskill">HTML</div>
+      <div class="innerskill">CSS</div>
+      <div class="innerskill">JavaScript</div>
+      <div class="innerskill">React.js</div>
+      <div class="innerskill">Node.js</div>
+      <div class="innerskill">MongoDB</div>
+    </div>
+
+  </section>
+
+  <!-- project section -->
+
+  <section class="project"  id="project" style="background-color: beige;">
+    
+    <h2 class="projecttitle">My Projects</h2>
+    
+      <div class="projectlist">
+          <div class="innerproject">Project 1</div>
+          <div class="innerproject">Project 2</div>
+          <div class="innerproject">Project 3</div>
+          <div class="innerproject">Project 4</div>
+          <div class="innerproject">Project 5</div>
+          <div class="innerproject">Project 6</div>
+      </div>
+
+  </section>
+
+
+  <!-- contact section -->
+
+  <section class="contact" id="contact" style="background-color: bisque;">
+    
+    <h2 class="contactitle">Contact Me</h2>
+    
+    <div class="formcontainer">\
+
+      <form id="contactform">
+        <label for="name">Name:</label>
+          <input type="text" name="name" placeholder="Enter your Name" id="name" required />
+        <br>
+        <label for="email">Email:</label>
+          <input type="email" name="email" placeholder="Enter your Email" id="email" required />
+        <br>
+        <label for="msg">Message:</label>
+          <textarea name="message" rows="10" placeholder="Enter your Message"  id="msg" required></textarea>
+        <br>
+        <button type="submit">Send Message</button>
+      </form>
+    
+    </div>
+
+    <div id="formResult"></div>
+
+  </section>
+
+  <!-- footer section -->
+
+  <footer>
+    <p>&copy; 2025 Ujjwal Gupta. All Rights Reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
